@@ -49,18 +49,29 @@
 						<section class="wrapper style5">
 							<div class="inner">
 
+								<form name="contact" method="POST" data-netlify="true">
+									<p>
+									  <label>Your Name: <input type="text" name="name" /></label>
+									</p>
+									<p>
+									  <label>Your Email: <input type="email" name="email" /></label>
+									</p>
+									<p>
+									  <label>Your Role: <select name="role[]" multiple>
+										<option value="leader">Leader</option>
+										<option value="follower">Follower</option>
+									  </select></label>
+									</p>
+									<p>
+									  <label>Message: <textarea name="message"></textarea></label>
+									</p>
+									<p>
+									  <button type="submit">Send</button>
+									</p>
+								  </form>
+								  
 
-
-								<form action="#" method="post">
-									<input type="email" name="SENDER" placeholder="Your email" required="required" />
-									<input type="text" name="name" placeholder="Your name" required="required" />
-									<textarea name="message" cols="30" rows="5" required="required"></textarea>
-									<input type="submit" value="Submit" />
-								</form>
-								
-								<script>
-									document.querySelector('form').setAttribute('action', 'https://post-to-form.my-server.com/?SUBJECT=Contact%20form');
-								</script>
+				
 
 
 				<!-- Footer -->
