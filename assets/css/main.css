@@ -3355,7 +3355,7 @@ input[name="username"] {
 			.wrapper.style5 input[type="button"],
 			.wrapper.style5 button,
 			.wrapper.style5 .button {
-				box-shadow: inset 0 0 0 2px #7042cf;
+				box-shadow: inset 0 0 0 2px #191e81;
 				color: #2E3842;
 				margin-bottom: 5px;
 			}
