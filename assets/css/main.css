@@ -4046,10 +4046,10 @@ input[name="username"] {
 /* Landing */
 
 	body.landing #page-wrapper {
-		background-image: -moz-linear-gradient(top, rgb(14 1 71 / 68%), rgb(1 1 4 / 50%)), url(../../images/pic02.jpg);
-		background-image: -webkit-linear-gradient(top, rgb(14 1 71 / 68%), rgb(1 1 4 / 50%)), url(../../images/pic02.jpg);
-		background-image: -ms-linear-gradient(top, rgb(14 1 71 / 68%), rgb(1 1 4 / 50%)), url(../../images/pic02.jpg);
-		background-image: linear-gradient(top, rgb(14 1 71 / 68%), rgb(1 1 4 / 50%)), url(../../images/pic02.jpg);
+		background-image: -moz-linear-gradient(top, #01126aad, rgb(1 1 4 / 50%)), url(../../images/pic02.jpg);
+		background-image: -webkit-linear-gradient(top, #01126aad, rgb(1 1 4 / 50%)), url(../../images/pic02.jpg);
+		background-image: -ms-linear-gradient(top, #01126aad, rgb(1 1 4 / 50%)), url(../../images/pic02.jpg);
+		background-image: linear-gradient(top, #01126aad, rgb(1 1 4 / 50%)), url(../../images/pic02.jpg);
 		background-attachment: fixed;
 		background-position: center center;
 		background-repeat: no-repeat;
