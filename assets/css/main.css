@@ -4067,7 +4067,7 @@ input[name="username"] {
 
 	body.is-mobile.landing #banner,
 	body.is-mobile.landing .wrapper.style4 {
-		background-image: url("../../images/pic02.jpg");
+		background-image: none;
 		background-position: center center;
 		background-repeat: no-repeat;
 		background-size: cover;
