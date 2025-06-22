@@ -5,6 +5,7 @@
     width: 50%;
     height: auto;
     padding-bottom: 30px;
+	padding-top: 30px;
   }
 
   @media (max-width: 768px) {
