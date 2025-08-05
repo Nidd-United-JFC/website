@@ -7,7 +7,20 @@
     padding-bottom: 30px;
 	padding-top: 30px;
   }
+/* start of club shop button hover*/
+.button-link {
+  padding: 10px 20px;
+  background-color: #008CBA; /* Blue */
+  color: white;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  transition: background-color 0.3s;
+}
 
+.button-link:hover {
+  background-color: #005f7a; /* Darker blue on hover */
+}
   @media (max-width: 768px) {
     .sponsor-pack-img {
       width: 100%;
