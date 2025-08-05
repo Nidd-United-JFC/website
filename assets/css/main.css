@@ -10,7 +10,7 @@
 /* start of club shop button hover*/
 .button-link {
   padding: 10px 20px;
-  background-color: #008CBA; /* Blue */
+  background-color: #008CBA;
   color: white;
   text-decoration: none;
   border-radius: 5px;
@@ -19,13 +19,9 @@
 }
 
 .button-link:hover {
-  background-color: #005f7a; /* Darker blue on hover */
+  background-color: #005f7a;
 }
-  @media (max-width: 768px) {
-    .sponsor-pack-img {
-      width: 100%;
-    }
-  }
+
 /* start of calendar css */
 
 .event-container {
