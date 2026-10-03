@@ -80,4 +80,11 @@
 
 		}
 
+	// Lightbox (click-to-enlarge).
+		$(document).on('click', 'img.lightbox-img', function() {
+			$('<div class="lightbox-overlay"><img src="' + $(this).attr('src') + '"></div>')
+				.on('click', function() { $(this).remove(); })
+				.appendTo($body);
+		});
+
 })(jQuery);

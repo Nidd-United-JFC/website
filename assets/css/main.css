@@ -4195,3 +4195,28 @@ input[name="username"] {
 	body.is-mobile.landing #footer {
 		background-color: rgb(1 1 4 / 50%);
 	}
+/* Lightbox (click-to-enlarge) */
+
+	img.lightbox-img {
+		cursor: zoom-in;
+	}
+
+	.lightbox-overlay {
+		position: fixed;
+		top: 0;
+		left: 0;
+		width: 100%;
+		height: 100%;
+		background: rgba(0, 0, 0, 0.85);
+		display: flex;
+		align-items: center;
+		justify-content: center;
+		z-index: 9999;
+		cursor: zoom-out;
+	}
+
+		.lightbox-overlay img {
+			max-width: 90%;
+			max-height: 90%;
+			box-shadow: 0 0 40px rgba(0, 0, 0, 0.6);
+		}
